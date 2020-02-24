@@ -183,9 +183,9 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contacter-nous, nous vous répondrons sous 24H</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>12 rue du canvas 72000 Le Mans</p>
-      <p><span class="glyphicon glyphicon-phone"></span>06 12 02 85 72</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Contact@Samm.fr</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Campus CESI 44 Avenue Frédéric Auguste Bartholdi, 72000 Le Mans</p>
+      <p><span class="glyphicon glyphicon-phone"></span><a href="tel:06 06 06 06 06"> 06 06 06 06 06</p>
+      <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:contact@samm.fr"> contact@samm.fr</a></p>
       <a href="http://www.facebook.com" target="_blank"><img src="bootstrap-3.3.7/images/facebook.svg" alt="logo-facebook" style="width: 2em"></a>
       <a href="http://www.linkedin.com" target="_blank"><img src="bootstrap-3.3.7/images/linkedin.svg" alt="logo-linkedin" style="width: 2em"></a>
       <a href="http://www.twitter.com" target="_blank"><img src="bootstrap-3.3.7/images/twitter.svg" alt="logo-twitter" style="width: 2em"></a>
