@@ -119,7 +119,7 @@
 <!-- Section Portfolio -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
+  <h4>Nos créations :</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -183,7 +183,6 @@
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-<<<<<<< HEAD
       <p>Contacter-nous, nous vous répondrons sous 24H</p>
       <p><span class="glyphicon glyphicon-map-marker"></span>12 rue du canvas 72000 Le Mans</p>
       <p><span class="glyphicon glyphicon-phone"></span>06 12 02 85 72</p>
@@ -194,12 +193,6 @@
       <a href="http://www.instagram.com" target="_blank"><img src="bootstrap-3.3.7/images/instagram.svg" alt="logo-instagram" style="width: 2em"></a>
       
       
-=======
-      <p>Contactez-nous, nous vous répondrons sous 24H</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Campus CESI 44 Avenue Frédéric Auguste Bartholdi, 72000 Le Mans</p>
-      <p><span class="glyphicon glyphicon-phone"></span><a href="tel:0612028572">06 12 02 85 72</a></p>
-      <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:contact@samm.fr"> contact@samm.fr</a></p>
->>>>>>> bb2491a67d299dd2462c800998066de00f43c535
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
