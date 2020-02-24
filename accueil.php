@@ -29,6 +29,7 @@
         <li><a href="#about">A PROPOS</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#temoignages">TEMOIGNAGES</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -141,7 +142,7 @@
   </div><br>
   </div>
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center" id="temoignages">
   <h2>Temoignages :</h2>
   <div id="Carousel-samm" class="carousel slide text-center" data-ride="carousel">
     <!-- Carousel Indicators -->
