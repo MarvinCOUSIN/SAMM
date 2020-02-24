@@ -35,8 +35,8 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
-  <h1>SAMM</h1> 
+<div class="jumbotron text-center" id="top">
+  <h1 class="bleu">SAMM</h1> 
   <h1>
     <a href="" class="typewrite" data-period="3000" data-type='[ "Votre application sur mesure !", "Développement", "Conseils", "Formation"]'>
       <span class="wrap"></span>
@@ -45,7 +45,7 @@
 </div>
 
 <!-- Section à propos -->
-<div id="about" class="container">
+<div id="about" class="container-fluid">
   <div class="row vertical-align">
     <div class="col-sm-8">
       <h2>A propos de l'entreprise</h2><br>
