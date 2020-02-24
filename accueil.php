@@ -22,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <img src="samm3.png" id="img"></img>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -40,9 +40,9 @@
   <p>Votre application sur mesure</p> 
 </div>
 
-<!-- Container (A propos Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
+<!-- Section à propos -->
+<div id="about" class="container">
+  <div class="row vertical-align">
     <div class="col-sm-8">
       <h2>A propos de l'entreprise</h2><br>
       <h4 class="text-justify">Vous cherchez un logiciel sur mesure intégrant les contraintes de votre activité ? Faites appel à SAMM et confiez-nous le développement de votre application. Nous pouvons réaliser une interface complète ou intégrer des modules complémentaires à votre ERP :
@@ -58,9 +58,9 @@
       </h4>
       <br>
     </div>
-    <!-- <div class="col-sm-4">
-      <span class="glyphicon glyphicon-info-sign logo"></span>
-    </div> -->
+    <div class="col-sm-4">
+      <img src="samm5.png" class="slideanim"></img>
+    </div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@
   </div>
 </div>
 
-<!-- Container (Services Section) -->
+<!-- Section Services -->
 <div id="services" class="container-fluid text-center">
   <h2>SERVICES</h2>
   <br>
@@ -106,7 +106,7 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-education logo-small"></span>
       <h4>Formations</h4>
-      <p>Nous vous accompagnons pour vos changements de votre SI</p>
+      <p>Nous vous accompagnons pour vos changements de votre SI.</p>
     </div>
   </div>
 </div>
