@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>SAMM</title>
+  <title>SAMM - Entreprise de logiciels et développement</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
@@ -22,14 +22,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <img src="samm3.png" id="img"></img>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#about">A PROPOS</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -37,29 +36,30 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
-  <form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form>
+  <h1>SAMM</h1> 
+  <p>Votre application sur mesure</p> 
 </div>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
+<!-- Section à propos -->
+<div id="about" class="container">
+  <div class="row vertical-align">
     <div class="col-sm-8">
-      <h2>About Company Page</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h2>A propos de l'entreprise</h2><br>
+      <h4 class="text-justify">Vous cherchez un logiciel sur mesure intégrant les contraintes de votre activité ? Faites appel à SAMM et confiez-nous le développement de votre application. Nous pouvons réaliser une interface complète ou intégrer des modules complémentaires à votre ERP :
+      <ul style="font-size:14px">
+      <br>
+      <li>Ateliers de cadrage pour la compréhension du besoin</li>
+        <li>Rédaction du cahier des charges</li>
+        <li>Développement de l’application</li>
+        <li>Livraison, mise en production</li>
+        <li>Formation</li>
+        <li>Assistance aux utilisateurs</li>
+      </ul>
+      </h4>
+      <br>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
+      <img src="samm5.png" class="slideanim"></img>
     </div>
   </div>
 </div>
@@ -67,55 +67,46 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    <div>
+      <span class="glyphicon glyphicon-star-empty logo slideanim"></span>
+    </div>
+    <div>
+      <span class="glyphicon glyphicon-star logo slideanim" style="margin-left:50%;"></span> 
+    </div>
+
     </div>
     <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>Nos valeurs</h2><br>
+      <h3 class="text-justify"> Depuis 3 ans, SAMM est spécialisé dans le développement d’applications et de logiciels « sur mesure ».</h3>
+      <br>
+      <p class="text-justify">
+      SAMM accompagne ses clients dans l’optimisation de leur système d'information afin d’améliorer leur performance économique. Nous créons des interfaces complètes ou complémentaires à votre système d’informations actuel tout en nous mettant à votre écoute pour assurer l’analyse des besoins, le développement, l’installation, la formation et la maintenance de vos applications. Nous utilisons des langages de programmation selon vos besoins.
+      <br>
+      SAMM assure à rechercher à tout prix la simplicité, valoriser votre établissement et développer des solutions qui améliorent efficacement votre gestion d’entreprise.
+      </p>
     </div>
   </div>
 </div>
 
-<!-- Container (Services Section) -->
+<!-- Section Services -->
 <div id="services" class="container-fluid text-center">
   <h2>SERVICES</h2>
-  <h4>What we offer</h4>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-console logo-small"></span>
+      <h4>Développement</h4>
+      <p>Nous vous proposons de développer votre logiciel ou votre application sur mesure.</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-user logo-small"></span>
+      <h4>Conseils</h4>
+      <p>Nous nous engageons à rester à votre écoute ainsi que de vous donner les meilleurs conseils. </p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-education logo-small"></span>
+      <h4>Formations</h4>
+      <p>Nous vous accompagnons pour vos changements de votre SI.</p>
     </div>
   </div>
 </div>
