@@ -119,7 +119,6 @@
 <!-- Section Portfolio -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
-  <h4>Nos créations :</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
