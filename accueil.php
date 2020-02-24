@@ -22,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <img src="bootrap-3.3.7/images/samm3.png" id="img" alt="logo-samm"></img>
+      <img src="bootstrap-3.3.7/images/samm3.png" id="img" alt="logo-samm"></img>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -63,7 +63,7 @@
       <br>
     </div>
     <div class="col-sm-4">
-      <img src="bootrap-3.3.7/images/samm5.png" class="slideanim"></img>
+      <img src="bootstrap-3.3.7/images/samm5.png" class="slideanim"></img>
     </div>
   </div>
 </div>
@@ -139,7 +139,9 @@
       </div>
     </div>
   </div><br>
-  
+  </div>
+
+<div class="container-fluid text-center">
   <h2>Temoignages :</h2>
   <div id="Carousel-samm" class="carousel slide text-center" data-ride="carousel">
     <!-- Carousel Indicators -->
@@ -174,8 +176,9 @@
   </div>
 </div>
 
+
 <!-- Contact Section -->
-<div id="contact" class="container-fluid">
+<div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -204,7 +207,11 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<div class="container-fluid text-center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.690504709532!2d0.1553949514010991!3d48.01968897911229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e28618116291d9%3A0xfcaa6dd1b2c248c2!2sCampus%20CESI!5e0!3m2!1sen!2sfr!4v1582551465308!5m2!1sen!2sfr" width="1100" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</div>
+<!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
 
 <footer class="container-fluid text-center">
   <a href="#myBody" title="To Top">
