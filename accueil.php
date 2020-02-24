@@ -37,7 +37,11 @@
 
 <div class="jumbotron text-center">
   <h1>SAMM</h1> 
-  <p>Votre application sur mesure</p> 
+  <h1>
+    <a href="" class="typewrite" data-period="3000" data-type='[ "Votre application sur mesure !", "Développement", "Conseils", "Formation"]'>
+      <span class="wrap"></span>
+    </a>
+  </h1>
 </div>
 
 <!-- Section à propos -->
