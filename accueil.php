@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="bootstrap-3.3.7/css/style.css">
+  <link rel="stylesheet" href="bootstrap-3.3.7/css/style.css" rel="stylesheet" type="text/css">
   <script src="bootstrap-3.3.7/js/jquery.min.js"></script>
   <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
   <script src="bootstrap-3.3.7/js/script.js"></script>
@@ -186,6 +186,12 @@
       <p><span class="glyphicon glyphicon-map-marker"></span>12 rue du canvas 72000 Le Mans</p>
       <p><span class="glyphicon glyphicon-phone"></span>06 12 02 85 72</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Contact@Samm.fr</p>
+      <a href="http://www.facebook.com" target="_blank"><img src="bootstrap-3.3.7/images/facebook.svg" alt="logo-facebook" style="width: 2em"></a>
+      <a href="http://www.linkedin.com" target="_blank"><img src="bootstrap-3.3.7/images/linkedin.svg" alt="logo-linkedin" style="width: 2em"></a>
+      <a href="http://www.twitter.com" target="_blank"><img src="bootstrap-3.3.7/images/twitter.svg" alt="logo-twitter" style="width: 2em"></a>
+      <a href="http://www.instagram.com" target="_blank"><img src="bootstrap-3.3.7/images/instagram.svg" alt="logo-instagram" style="width: 2em"></a>
+      
+      
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
