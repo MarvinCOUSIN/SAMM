@@ -212,7 +212,6 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.690504709532!2d0.1553949514010991!3d48.01968897911229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e28618116291d9%3A0xfcaa6dd1b2c248c2!2sCampus%20CESI!5e0!3m2!1sen!2sfr!4v1582551465308!5m2!1sen!2sfr" width="1100" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 </div>
-<!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
 
 <footer class="container-fluid text-center">
   <a href="#myBody" title="To Top">
