@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    $(".navbar a, footer a[href='#myBody']").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior
@@ -15,12 +15,13 @@ $(document).ready(function() {
                 scrollTop: $(hash).offset().top
             }, 900, function() {
 
-                // Add hash (#) to URL when done scrolling (default click behavior)
+                // Add hash (#) to URL when done scrolling 
                 window.location.hash = hash;
             });
         } // End if
     });
 
+    //found and anime picture when you scroll
     $(window).scroll(function() {
         $(".slideanim").each(function() {
             var pos = $(this).offset().top;
@@ -28,11 +29,12 @@ $(document).ready(function() {
             var winTop = $(window).scrollTop();
             if (pos < winTop + 600) {
                 $(this).addClass("slide");
-            }
-        });
-    });
+            } // end if 
+        }); // end each
+    }); // end scroll
 });
 
+//variable (text anime)
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -43,16 +45,19 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
 };
 
+//(.tick) makes text visualizing dynamically 
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
 
+    //to know if the text is being deleted or writing
     if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
+    //add span with text to this element
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
@@ -60,6 +65,7 @@ TxtType.prototype.tick = function() {
 
     if (this.isDeleting) { delta /= 2; }
 
+    //to know if all the text has been written so it start deleting or it continue writing
     if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
         this.isDeleting = true;
@@ -69,12 +75,15 @@ TxtType.prototype.tick = function() {
         delta = 500;
     }
 
+    // make the function always executed
     setTimeout(function() {
         that.tick();
     }, delta);
 };
 
+//function to animate text
 window.onload = function() {
+    //get text and period from html
     var elements = document.getElementsByClassName('typewrite');
     for (var i = 0; i < elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
