@@ -36,8 +36,9 @@ $(document).ready(function() {
     function myFunction(x) {
         if (x.matches) { // If media query matches
             $(".flip-card-back").hide();
-            $(".flip-card").height($('.img-responsive').height());
+            $(".flip-card").height($('#site_vitrine').height() + 20);
         } else {
+            $(".flip-card").height("300px");
             $(".flip-card-back").show();
         }
     }
